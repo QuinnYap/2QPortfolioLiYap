@@ -1,0 +1,37 @@
+        a:link{
+            color:red;
+        }
+        a:hover{
+            color:#45a9ff;
+        }
+        a:visited{
+            color:#0057AD;
+        }
+        table{
+            width: 50%;
+            margin: 16px 0;
+            border-collapse: collapse;
+        }
+        table, th, td{
+            border: 1px solid #17008b;
+            text-align: center;
+        }
+        th{
+            background-color:#0057AD;
+            color:#FBDA0C;
+        }
+        tbody{
+            background-color:#f6d76b;
+            color:#0057AD;
+        }
+        tr:hover{
+            background-color:#FBDA0C;
+            color:#17008b;
+            transition:0.3s;
+        }
+        h1, h3{
+            color:#17008b;
+        }
+        h2, h4, h5, h6{
+            color:#0057AD;
+        }
