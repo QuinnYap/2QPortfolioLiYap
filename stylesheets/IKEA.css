@@ -7,9 +7,15 @@
         a:visited{
             color:#0057AD;
         }
+        body{
+            text-align:center;
+            background-color:#f6f0f7;
+        }
         table{
             width: 50%;
             margin: 16px 0;
+            margin-left: auto;
+            margin-right: auto;
             border-collapse: collapse;
         }
         table, th, td{
