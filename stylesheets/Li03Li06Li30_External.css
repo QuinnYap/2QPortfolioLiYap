@@ -1,6 +1,6 @@
 * {
     font-family: "Lucida Console", "Courier New", monospace;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 header, nav{
     text-align: center;
@@ -44,9 +44,8 @@ body{
 }
 body img{
     transition: 0.3s;
-    border-radius:-20px;
 }
-body img:hover{
+body img:hover, iframe:hover{
     transform:translateY(-10px);
     transition: 0.3s;
 }
